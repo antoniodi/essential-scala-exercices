@@ -1,9 +1,14 @@
+import companion.`object`.Person
 import counter.exercise.Counter
 
 object main {
 
   def main(args: Array[String]): Unit = {
-    counterExercise()
+  }
+
+  def  companionObject() = {
+    val aPerson = Person("Antonio Cortes")
+    print(aPerson.firstName+ " " +aPerson.lastName)
   }
 
   def counterExercise(): Unit = {
