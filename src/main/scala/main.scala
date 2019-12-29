@@ -7,6 +7,9 @@ object main {
   }
 
   def  companionObject() = {
+  }
+
+  def companionObjectExercise(): Unit = {
     val aPerson = Person("Antonio Cortes")
     print(aPerson.firstName+ " " +aPerson.lastName)
   }
