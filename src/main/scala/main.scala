@@ -1,4 +1,5 @@
 import `case`.classes.cat.{Cat, ChipShop}
+import `trait`.divide
 import `trait`.shape.{Circle, CustomColor, Draw, Pink, Rectangle, Square, Yellow}
 import companion.`object`.Person
 import counter.exercise.Counter
@@ -6,7 +7,8 @@ import counter.exercise.Counter
 object main {
 
   def main(args: Array[String]): Unit = {
-    sealedTrait()
+    println(divide(1, 0))
+    println(divide(10, 5))
   }
 
   def sealedTrait(): Unit = {
