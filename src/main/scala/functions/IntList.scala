@@ -27,9 +27,9 @@ trait IntList {
 }
 
 case class End() extends IntList
-case class Pair( heap: Int, tail: IntList) extends IntList
+case class Pair( heap: Int, tail: IntList ) extends IntList
 
-object main{
+object main {
 
   def main(args: Array[String]): Unit = {
     val intList = Pair(10, Pair(15, Pair(7, Pair(2, End()))))
